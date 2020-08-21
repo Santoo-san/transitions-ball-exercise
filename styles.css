@@ -1,23 +1,29 @@
 .ball-one {
-  background: #ff97C0;
+  background: #ff97c0;
   border-radius: 50%;
-  position: absolute; top: 0px; left: 00px;
-  width: 200px; height: 200px;
+  position: absolute;
+  top: 0px;
+  left: 00px;
+  width: 200px;
+  height: 200px;
 }
 
 .ball-two {
-  background: #0097C0;
+  background: #0097c0;
   border-radius: 50%;
-  position: absolute; top: 100px; left: 300px;
-  width: 100px; height: 100px;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  width: 100px;
+  height: 100px;
 }
 
 .anim:active .ball-one {
   left: 150px;
-  transition: left .5s ease-in;
+  transition: left 0.5s ease-in;
 }
 
 .anim:active .ball-two {
-	left: 550px;
-  transition: right 1s ease-in 1s;
+  left: 550px;
+  transition: 1s ease-in 250ms;
 }
